@@ -1,4 +1,4 @@
-# Python Connector for CrossDB
+# Python Driver for CrossDB
 
 Install
 ```
@@ -6,7 +6,7 @@ python setup.py install
 ```
 
 Example
-```
+```python
 import crossdb
 
 conn = crossdb.connect(database=":memory:")
