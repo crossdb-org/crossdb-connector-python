@@ -1,11 +1,17 @@
 # Python Driver for CrossDB
 
-Install
+## Pre-requirement
+You need to [install](https://crossdb.org/get-started/install/) crossdb lib first 
+
+## Import
+
+It's a single python file lib, you can just include in your project folder and import directly, or you can install to python.
+
 ```
 python setup.py install
 ```
 
-Example
+## Example
 ```python
 import crossdb
 
